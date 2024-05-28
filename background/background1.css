@@ -1,0 +1,32 @@
+*{
+	box-sizing:border-box;
+	background-color:white;;
+}
+
+.context{
+	
+	height:100vh;
+	width:100hh;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+}
+
+.box1{
+	
+background-image:url(https://imgv3.fotor.com/images/slider-image/Colorize-peoples-photo-1.jpg);
+}
+
+.box2{
+	background-image:url(https://imgv3.fotor.com/images/slider-image/Colorize-peoples-photo-2.jpg);
+}
+
+.box3{
+	
+background-image:url(https://sm-upload-usa.oss-accelerate.aliyuncs.com/upload/identification/blur/coloring_content_original_10.webp);
+}
+
+.box4{
+	background-image:url(https://sm-upload-usa.oss-accelerate.aliyuncs.com/upload/identification/blur/coloring_content_dispose_10.webp);
+}

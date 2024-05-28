@@ -1,0 +1,43 @@
+*{
+	box-sizing:border-box;
+}
+.context{
+	height:100vh;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+.box1{
+	
+	background-image:url(https://images.hdqwalls.com/download/the-batman-2021-robert-pattinson-4k-0q-1152x864.jpg);
+}
+
+.box2{
+	background-image:url(https://ichef.bbci.co.uk/images/ic/1200x675/p09t1hg0.jpg);
+}
+
+.box3{
+	background-image:url(https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/06/Loki-Explained.jpg);
+}
+
+
+.box4{
+	background-position:rigth;
+	background-image:url(https://i.pinimg.com/originals/ed/d8/a2/edd8a2d8b6e2c8aa93e92c65b9f1a8c0.png);
+}
+.box4 > h1{
+	
+	color:white;
+	text-align:right;
+}
+.box5{
+	height:100vh;
+	background-attachment:fixed;
+	background-image:linear-gradient(darkred,black);
+}
+
+.box6{
+	height:100vh;
+	background-attachment:fixed;
+	background-image:radial-gradient(blue,black)
+}
