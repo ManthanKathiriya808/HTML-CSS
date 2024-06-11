@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Position </title>
+
+<style>
+	.nav{
+		
+		width:100%;
+		display:flex;
+		justify-content:space-evenly;
+		height:50px;
+		padding:10px;
+		line-height:50px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;	
+	position:relative;
+	top:5px;
+	background-color: #D3C5E5;
+	
+	}
+
+	body{
+		background-color:   #735DA5;
+	}
+	
+	.nav>a{
+		text-decoration:none;
+		color:#c3195d;
+		transition: all 1s;
+		
+		width:70px;
+		text-align: center;
+	}
+	
+	a:hover{
+		
+		color:blue;
+		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+		transform: scale(1.3);
+		border: #020024;
+	}
+	
+	.login{
+		width:350px;
+		position:absolute;
+		top:350px;
+		left:38%;
+		background-color: #D3C5E5;
+		padding:20px;
+		height:200px;
+		text-align:center;
+		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	}
+	
+	form input{
+		padding:5px;
+		width:70%;
+	}
+	h2{
+		padding:5px;
+		color:blue;
+	}
+	
+	button{
+		padding:5px;
+		width:70px;
+		background-image:linear-gradient(90deg,#020024,#090979,#00d4ff);
+		color:white;
+		border-radius:10px;
+		transition: all 1s;
+	}
+	
+	button a{
+	text-decoration:none;
+	color:white;
+	}
+
+	button:hover{
+		background-image:linear-gradient(-90deg,#020024,#090979,#00d4ff);
+		color:white;
+		transform: scale(1.1);
+	}
+
+	button a:hover{
+		color:white;
+	}
+</style>
+</head>
+
+<body>
+	
+	<marquee>Login page</marquee>
+		<div class="nav">
+			<a href="home.html">Home</a>
+			<a href="position.html">Login</a>
+			<a href="overflow.html">Sign In</a>
+			<a href="">About Us</a>
+		</div>
+		
+		<div class="login">
+			<h2>Login Here</h2>
+			
+			<form>
+			
+				<labele >UserName</labele>
+				<input type="text"style="margin-bottom:10px;"><br>
+				<labele>Password</labele>
+				<input type="password" style="margin-bottom:10px;">
+				<br>
+				<button><a href="">Login</a> </button>
+			</form>
+		</div>
+		
+		
+</body>
+
+</html>
