@@ -1,0 +1,184 @@
+*{
+    color:white;
+    font-family: poppins;
+ 
+}
+
+.nav{
+		
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    height:50px;
+    padding:10px;
+    line-height:50px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;	
+position:relative;
+top:5px;
+background-image:linear-gradient(180deg,#009245, #FCEE21);
+font-size: 20px;
+
+}
+
+.nav a:hover{
+    text-decoration: underline;
+    color:hotpink;
+    transform: scale(1.1);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+body{
+    background-image:linear-gradient(90deg,#09203F ,#537895);
+}
+
+.nav>a{
+    text-decoration:none;
+    color:white;
+    transition: all 1s;
+}
+
+.products{
+    width:1000px;
+    height:700px;
+    border:1px solid grey;
+    position:absolute;
+    top:140px;
+    left:40%;
+    padding:20px;
+    text-align:center;
+    font-size:25px;
+    overflow:auto;
+    scroll-behavior:smooth;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(247, 8, 8, 0.24) 0px 1px 2px;
+    background-color: white;
+    
+}
+.laptop{
+box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+transform: scale(0.7);
+transition: all 0.5s;
+}
+
+.laptop:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform:scale(0.8);
+}
+.mouse{
+box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+transform: scale(0.7);
+transition: all 0.5s;
+}
+
+.mouse:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+transform:scale(0.8);
+}
+.watch{
+box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+transform: scale(0.7);
+transition: all 0.5s;
+}
+.watch:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+transform:scale(0.8);
+}
+.menu{
+    position:absolute;
+    top:400px;
+    left:calc(30% - 250px);
+    text-decoration:none;
+    font-size:25px;
+    padding:10px;
+    width:300px;
+    height:300px;
+    
+text-align:center;
+
+}
+
+.menu li{
+    list-style:none;
+    line-height:30px;
+    padding:10px;
+    transition: all 1s;
+    margin-bottom: 10px;
+}
+
+.menu a{
+text-decoration:none;
+padding:10px;
+color:white;
+background-image:linear-gradient(90deg,#009245, #FCEE21);
+transition:all 1s;
+}
+
+.menu a:hover{
+background-image:linear-gradient(90deg,#EE9CA7, #FFDDE1);
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+border-radius:10px;
+width:30px;
+color:white;
+
+}
+
+.menu li:hover{
+    transform: scale(1.2);
+    
+}
+
+.container{
+
+    margin: auto;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+    
+   
+}
+
+.product{
+ 
+    
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+
+    
+}
+
+.product1{
+    width: 300px;
+    padding: 5px;
+    box-shadow: rgb(5, 255, 34) 0px 3px 8px;
+    transition: all 0.5s;
+    font-size: 30px;
+    margin: 30px 10px;
+}
+
+.product1:hover{
+    box-shadow: rgb(211, 124, 36) 0px 3px 8px;
+    transform: scale(1.05);
+}
+
+.product1 img{
+    width:100%;
+    border-radius: 10px;
+    box-shadow: rgba(226, 43, 43, 0.24) 0px 3px 8px;
+}
+
+.product1 p s{
+    color:red;
+}
+
+.product button{
+   background-color:rgb(211, 124, 36);
+   padding:10px 30px;
+   border-radius: 10px;
+}
+
+.product1 button:hover{
+    background-color: rgba(193, 188, 23, 0.985);
+}
+
