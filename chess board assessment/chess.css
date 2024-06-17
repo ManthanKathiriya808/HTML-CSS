@@ -1,0 +1,40 @@
+*{
+		box-size:border-box;
+		
+	}
+	
+	body{
+		border:8px solid #AF8260;
+		margin-left:25%;
+		margin-top:2%;
+		width:fit-content;
+		
+	}
+
+	.box1{
+		height:100px;
+		width:100px;
+		/* background-color:#0A6847; */
+        background-color: #DEAC80;
+		float:left;
+		border:1px solid black;
+		font-size:70px;
+		text-align:center;
+		line-height:100px;
+		
+	}
+	.box2{
+		height:100px;
+		width:100px;
+		/* background-color:#7ABA78; */
+        background-color: #F7DCB9;
+		float:left;
+		border:1px solid black;
+		font-size:70px;
+		text-align:center;
+		line-height:100px;
+	}
+	.fix{
+		clear:both;
+	}
+	
